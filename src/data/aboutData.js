@@ -1,8 +1,8 @@
 export const aboutData = {
   title: "Who I am",
   description1:
-    "My name's Akash Surve. I'm a web designer and developer based in Pune, India.",
+    "Hello stranger! 👋, my name is Akash Surve and I am a Full Stack Developer, passionate about building digital products that improve everyday experience for people.",
   description2:
-    "I am an aspiring full stack developer and I have completed B.E. in Mechanical from Savitribai Phule Pune University. I love to learn and explore new arenas!",
+    "I am Quick learner and an aspiring full-stack web developer with core knowledge of MERN stack technology. Looking forward to applying and enhancing my skills and knowledge as a developer.",
   image: 1,
 };
