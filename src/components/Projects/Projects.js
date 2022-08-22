@@ -52,6 +52,17 @@ function Projects() {
           <div className="projects--header">
             <h1 style={{ color: theme.primary }}>Projects</h1>
           </div>
+          <p
+            style={{
+              color: "white",
+              marginTop: "-30px",
+              marginBottom: "40px",
+              fontSize: "25px",
+              textAlign: "center",
+            }}
+          >
+            Here are a few projects I've worked on recently.
+          </p>
           <div className="projects--body">
             <div className="projects--bodyContainer">
               {projectsData.slice(0, 3).map((project) => (
