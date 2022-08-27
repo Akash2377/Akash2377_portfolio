@@ -51,7 +51,7 @@ function Contacts() {
     input: {
       border: `4px solid ${theme.primary80}`,
       backgroundColor: `${theme.secondary}`,
-      color: `${theme.tertiary}`,
+      color: "White",
       fontFamily: "var(--primaryFont)",
       fontWeight: 500,
       transition: "border 0.2s ease-in-out",
@@ -89,7 +89,7 @@ function Contacts() {
       justifyContent: "center",
       fontSize: "21px",
       backgroundColor: theme.primary,
-      color: theme.secondary,
+      color: "white",
       transition: "250ms ease-in-out",
       "&:hover": {
         transform: "scale(1.1)",
@@ -99,7 +99,7 @@ function Contacts() {
     },
     detailsIcon: {
       backgroundColor: theme.primary,
-      color: theme.secondary,
+      color: "white",
       borderRadius: "50%",
       width: "45px",
       height: "45px",
@@ -117,7 +117,7 @@ function Contacts() {
     },
     submitBtn: {
       backgroundColor: theme.primary,
-      color: theme.secondary,
+      color: "white",
       transition: "250ms ease-in-out",
       "&:hover": {
         transform: "scale(1.08)",
@@ -176,7 +176,7 @@ function Contacts() {
                   Name
                 </label>
                 <input
-                  placeholder="Akash Surve"
+                  placeholder="Enter Your Name"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   type="text"
@@ -189,7 +189,7 @@ function Contacts() {
                   Email
                 </label>
                 <input
-                  placeholder="ak@gmail.com"
+                  placeholder="Enter Your Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   type="email"

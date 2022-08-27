@@ -65,7 +65,7 @@ function Navbar() {
       fontSize: "2rem",
       fontWeight: "bold",
       cursor: "pointer",
-      color: theme.primary,
+      color: "white",
       position: "absolute",
       right: 40,
       top: 40,
@@ -82,7 +82,7 @@ function Navbar() {
       margin: "2rem auto",
       borderRadius: "78.8418px",
       background: theme.secondary,
-      color: theme.primary,
+      color: "white",
       width: "85%",
       height: "60px",
       display: "flex",
@@ -95,7 +95,7 @@ function Navbar() {
       transition: "background-color 0.2s, color 0.2s",
       "&:hover": {
         background: theme.primary,
-        color: theme.secondary,
+        color: "white",
       },
       [t.breakpoints.down("sm")]: {
         width: "100%",
@@ -133,7 +133,7 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar--container">
-        <h1 style={{ color: theme.secondary }}>{shortname(headerData.name)}</h1>
+        <h1 style={{ color: "white" }}>{shortname(headerData.name)}</h1>
 
         <IoMenuSharp
           className={classes.navMenu}
