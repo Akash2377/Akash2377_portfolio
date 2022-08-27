@@ -1,5 +1,5 @@
 import resume from "../assets/pdf/resume.pdf";
-import ProfilePhoto from "../assets/png/ProfilePhoto.jpg";
+import ProfilePhoto from "../assets/png/ProfilePhoto.png";
 export const headerData = {
   name: "Akash Surve",
   title: "Web Developer",

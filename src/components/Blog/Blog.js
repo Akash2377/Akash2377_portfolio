@@ -21,7 +21,7 @@ function Blog() {
       },
     },
     viewArr: {
-      color: theme.tertiary,
+      color: theme.primary,
       backgroundColor: theme.secondary70,
       width: "40px",
       height: "40px",
@@ -30,7 +30,7 @@ function Blog() {
       borderRadius: "50%",
       cursor: "pointer",
       "&:hover": {
-        color: theme.tertiary,
+        color: theme.primary,
         backgroundColor: theme.secondary,
       },
     },

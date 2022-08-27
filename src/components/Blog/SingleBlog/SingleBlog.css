@@ -48,10 +48,11 @@
 }
 
 .singleBlog--body h6 {
-  font-family: "Noto Sans TC", sans-serif;
+  font-family: var(--primaryFont);
   font-size: 15px;
   line-height: 139%;
-  font-weight: 500;
+  font-weight: 300;
+  color: black !important;
   opacity: 0.9;
 }
 

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -15,10 +15,19 @@ import "./App.css";
 
 function App() {
   const { theme } = useContext(ThemeContext);
+  const [load, upadateLoad] = useState(true);
 
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 1200);
+
+    return () => clearTimeout(timer);
+  }, []);
   return (
     <div className="app">
       <Router>
+        <div id={load ? "preloader" : "preloader-none"}></div>
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Main} />
