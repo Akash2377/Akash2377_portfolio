@@ -1,4 +1,4 @@
-.singleProject {
+/* .singleProject {
   box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
   width: 304px;
   height: 360px;
@@ -105,4 +105,173 @@
   font-weight: 500;
   word-break: break-word;
   line-height: 100%;
+} */
+.singleProject {
+  box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
+  width: 800px;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 1.4rem 2rem;
+  gap: 20px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.projectContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  width: 100%;
+}
+.singleProject > div {
+  display: flex;
+  width: 100%;
+}
+.singleProject > div > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 90%;
+}
+.singleProject > div > div:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  width: 90%;
+}
+.projectContent > h2 {
+  font-family: var(--primaryFont);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.525rem;
+  line-height: 110%;
+  text-align: center;
+}
+
+.projectContent > img {
+  width: 100%;
+
+  border-radius: 10px;
+}
+
+.project--showcaseBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.project--showcaseBtn > a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.singleProject .project--desc {
+  margin-top: -10px;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--primaryFont);
+  color: white !important;
+}
+.project--desc > li {
+  font-size: 15px;
+}
+.singleProject .project--lang {
+  width: 100%;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.825rem;
+  background-color: transparent;
+}
+.singleProject .project--lang > img {
+  width: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1380px) {
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 800px) {
+  .singleProject {
+    box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 1.4rem 2rem;
+    gap: 20px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .ProjectMiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .ProjectMiddle > div {
+    height: auto;
+    margin: 10px;
+  }
+  li {
+    margin-left: -18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .singleProject {
+    box-shadow: 4px 4px 8px rgba(36, 3, 3, 0.2);
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 1.4rem 2rem;
+    gap: 20px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .ProjectMiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .ProjectMiddle > div {
+    height: auto;
+    margin: 10px;
+  }
+  li {
+    margin-left: -18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .ProjectMiddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+}
+
+@media only screen and (device-width: 768px) {
 }
