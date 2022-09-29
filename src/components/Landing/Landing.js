@@ -34,7 +34,7 @@ function Landing() {
       transition: "100ms ease-out",
       "&:hover": {
         backgroundColor: theme.tertiary,
-        color: theme.secondary,
+        color: "purple",
         border: `3px solid ${theme.tertiary}`,
       },
       [t.breakpoints.down("sm")]: {
@@ -43,7 +43,7 @@ function Landing() {
     },
     contactBtn: {
       backgroundColor: theme.primary,
-      color: theme.secondary,
+      color: "white",
       borderRadius: "30px",
       textTransform: "inherit",
       textDecoration: "none",
@@ -143,8 +143,7 @@ function Landing() {
             <div className="lcr-buttonContainer">
               {headerData.resumePdf && (
                 <a
-                  href={headerData.resumePdf}
-                  download="resume"
+                  href="https://drive.google.com/file/d/1i6fEK9pOuSm3KKaoqjy82U1K_vTTsGzz/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >

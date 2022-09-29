@@ -54,7 +54,7 @@ function SingleProject({
       >
         <h2
           id={name.replace(" ", "-").toLowerCase()}
-          style={{ color: theme.tertiary }}
+          style={{ color: theme.tertiary, fontFamily: "cursive" }}
         >
           {name}
         </h2>
@@ -75,9 +75,10 @@ function SingleProject({
               className="project--desc"
               style={{
                 fontSize: "20px",
-                fontWeight: "bold",
+                fontWeight: "600",
                 marginTop: "-10px",
                 textAlign: "center",
+                fontFamily: "cursive",
               }}
             >
               Feature
