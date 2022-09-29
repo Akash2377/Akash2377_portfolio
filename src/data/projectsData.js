@@ -2,6 +2,7 @@ import one from "../assets/png/Projects/zee5.png";
 import two from "../assets/png/Projects/dineout.png";
 import Masai20 from "../assets/png/Projects/masai2o.png";
 import GoMasai from "../assets/png/Projects/GoMasai.png";
+import cricinfo from "../assets/png/Projects/cricinfo.png";
 // import three from "../assets/svg/projects/three.svg";
 
 export const projectsData = [
@@ -69,6 +70,24 @@ export const projectsData = [
     code: "https://github.com/Akash2377/cloneItDineout",
     demo: "https://dineoutclone22.netlify.app/",
     image: two,
+  },
+  {
+    id: 5,
+    projectName: "ESPNcricinfo",
+    projectHade: "Get Live Cricket Score",
+    projectDesc: [
+      "Home Page with theme change functionality",
+      "Latest cricket news page",
+      "Live Score Page ",
+      "Sign Up | Login for cricket fantasy section",
+      "Play Fantasy Cricket and win real cash",
+      "Player search functionality",
+      "Players Profile Page",
+    ],
+    tags: ["HTML", "CSS", "React", "materialui"],
+    code: "https://github.com/Akash2377/ESPNcricinfo_Clone",
+    demo: "https://espncricinfoclone.netlify.app/",
+    image: cricinfo,
   },
   // {
   //   id: 5,
