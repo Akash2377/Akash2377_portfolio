@@ -15,6 +15,7 @@ import {
   FaYoutube,
   FaBlogger,
 } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 function Landing() {
   const { theme, drawerOpen } = useContext(ThemeContext);
@@ -102,12 +103,12 @@ function Landing() {
                 />
               </a>
             )}
-            {socialsData.youtube && (
-              <a href={socialsData.youtube} target="_blank" rel="noreferrer">
-                <FaYoutube
+            {socialsData.leetcode && (
+              <a href={socialsData.leetcode} target="_blank" rel="noreferrer">
+                <SiLeetcode
                   className="landing--social"
                   style={{ color: "white" }}
-                  aria-label="YouTube"
+                  aria-label="leetcode"
                 />
               </a>
             )}
