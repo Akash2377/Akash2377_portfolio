@@ -11,4 +11,5 @@ export const socialsData = {
   stackOverflow: "https://stackoverflow.com/users/19786860/akash-surve",
   //   gitlab: "https://gitlab.com/",
   //   youtube: "https://youtube.com/",
+  leetcode: "https://leetcode.com/Akash2377/",
 };

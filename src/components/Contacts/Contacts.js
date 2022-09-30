@@ -4,6 +4,8 @@ import CloseIcon from "@material-ui/icons/Close";
 import axios from "axios";
 import isEmail from "validator/lib/isEmail";
 import { makeStyles } from "@material-ui/core/styles";
+
+import { SiLeetcode } from "react-icons/si";
 import {
   FaTwitter,
   FaLinkedinIn,
@@ -93,7 +95,7 @@ function Contacts() {
       transition: "250ms ease-in-out",
       "&:hover": {
         transform: "scale(1.1)",
-        color: theme.secondary,
+        color: "black",
         backgroundColor: theme.tertiary,
       },
     },
@@ -111,7 +113,7 @@ function Contacts() {
       flexShrink: 0,
       "&:hover": {
         transform: "scale(1.1)",
-        color: theme.secondary,
+        color: "black",
         backgroundColor: theme.tertiary,
       },
     },
@@ -121,7 +123,7 @@ function Contacts() {
       transition: "250ms ease-in-out",
       "&:hover": {
         transform: "scale(1.08)",
-        color: theme.secondary,
+        color: "black",
         backgroundColor: theme.tertiary,
       },
     },
@@ -322,14 +324,14 @@ function Contacts() {
                   <FaLinkedinIn aria-label="LinkedIn" />
                 </a>
               )}
-              {socialsData.instagram && (
+              {socialsData.leetcode && (
                 <a
-                  href={socialsData.instagram}
+                  href={socialsData.leetcode}
                   target="_blank"
                   rel="noreferrer"
                   className={classes.socialIcon}
                 >
-                  <FaInstagram aria-label="Instagram" />
+                  <SiLeetcode aria-label="leetcode" />
                 </a>
               )}
               {socialsData.medium && (
