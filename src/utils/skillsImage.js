@@ -9,6 +9,8 @@ import css from "../assets/svg/skills/css.svg";
 import angular from "../assets/svg/skills/angular.svg";
 import javascript from "../assets/svg/skills/javascript.svg";
 import nextJS from "../assets/svg/skills/nextJS.svg";
+import nodejs from "../assets/svg/skills/nodejs.svg";
+import express from "../assets/svg/skills/express.svg";
 import nuxtJS from "../assets/svg/skills/nuxtJS.svg";
 import react from "../assets/svg/skills/react.svg";
 import svelte from "../assets/svg/skills/svelte.svg";
@@ -72,6 +74,8 @@ import picsart from "../assets/svg/skills/picsart.svg";
 import sketch from "../assets/svg/skills/sketch.svg";
 import unity from "../assets/svg/skills/unity.svg";
 import wolframalpha from "../assets/svg/skills/wolframalpha.svg";
+import chakraui from "../assets/svg/skills/chakraui.svg";
+import redux from "../assets/svg/skills/redux.svg";
 
 import canva from "../assets/svg/skills/canva.svg";
 
@@ -100,10 +104,16 @@ export const skillsImage = (skill) => {
       return javascript;
     case "next js":
       return nextJS;
+    case "redux":
+      return redux;
+    case "node js":
+      return nodejs;
     case "nuxt js":
       return nuxtJS;
     case "react":
       return react;
+    case "express":
+      return express;
     case "svelte":
       return svelte;
     case "typescript":
@@ -112,6 +122,8 @@ export const skillsImage = (skill) => {
       return vue;
     case "bootstrap":
       return bootstrap;
+    case "chakraui":
+      return chakraui;
     case "bulma":
       return bulma;
     case "capacitorjs":
