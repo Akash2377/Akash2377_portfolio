@@ -16,7 +16,7 @@ export const blogData = [
     id: 2,
     title: "Masai 2.0",
     description:
-      "I am pursuing a Full Stack Web Development course at Masai school, In Masai school, I have given a project. It was a pretty good project to work on. The task was to create a course platform. Let's look at how I designed it",
+      "I am pursuing a Full Stack Web Development course at Masai school, In Masai school, I have been given a project. It was a pretty good project to work on. The task was to create a course platform. Let's look at how I designed it",
     date: "Jul 25, 2022",
     image: masai20,
     url: "https://learnwithmasai2.hashnode.dev/masai-20",
