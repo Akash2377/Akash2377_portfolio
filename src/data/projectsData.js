@@ -31,7 +31,7 @@ export const projectsData = [
       "Sign Up | Login | for three users Student | Admin | Super Admin",
       "Profile Page (Dynamic) for every user",
       "Super Admin and Admin can add courses and lectures",
-      "Add to favourites and add to cart options for student",
+      "Add to favorites and add to cart options for student",
       "Students can buy the course and then able to watch all the course lectures",
     ],
     tags: ["HTML", "CSS", "JavaScript"],
