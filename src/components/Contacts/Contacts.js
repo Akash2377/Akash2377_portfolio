@@ -4,7 +4,6 @@ import CloseIcon from "@material-ui/icons/Close";
 import axios from "axios";
 import isEmail from "validator/lib/isEmail";
 import { makeStyles } from "@material-ui/core/styles";
-
 import { SiLeetcode } from "react-icons/si";
 import {
   FaTwitter,
@@ -136,22 +135,22 @@ function Contacts() {
 
     if (name && email && message) {
       if (isEmail(email)) {
-        const responseData = {
-          name: name,
-          email: email,
-          message: message,
-        };
+        let MessageF = `<div><p>Name: ${name}</p><p>Email: ${email}</p><p>Message: ${message}</p></div>`;
 
-        axios.post(contactsData.sheetAPI, responseData).then((res) => {
-          console.log("success");
-          setSuccess(true);
-          setErrMsg("");
+        axios
+          .get(
+            `${contactsData.sheetAPI}?Name=${name}&Email=${email}&Message=${MessageF}`
+          )
+          .then((res) => {
+            console.log("success");
+            setSuccess(true);
+            setErrMsg("");
 
-          setName("");
-          setEmail("");
-          setMessage("");
-          setOpen(false);
-        });
+            setName("");
+            setEmail("");
+            setMessage("");
+            setOpen(false);
+          });
       } else {
         setErrMsg("Invalid email");
         setOpen(true);
