@@ -106,7 +106,7 @@ export const skillsImage = (skill) => {
       return nextJS;
     case "redux":
       return redux;
-    case "node js":
+    case "nodejs":
       return nodejs;
     case "nuxt js":
       return nuxtJS;

@@ -197,12 +197,14 @@
   font-size: 0.8rem;
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 0.5rem;
   padding: 0.825rem;
   background-color: transparent;
 }
 .singleProject .project--lang > img {
   width: 30px;
+  height: 40px;
 }
 
 @media (min-width: 992px) and (max-width: 1380px) {
