@@ -19,7 +19,7 @@ export const projectsData = [
     ],
     tags: ["HTML", "CSS", "JavaScript"],
     code: "https://github.com/Akash2377/Zee5",
-    demo: "https://zee5clone22.netlify.app",
+    demo: "https://zee5clonep.netlify.app",
     image: one,
   },
 
