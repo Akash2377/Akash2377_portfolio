@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Akash Surve — Freelance Full Stack & macOS Developer</title>
+    <meta
+      name="description"
+      content="Freelance full stack and macOS developer in Pune, India. Native Swift and SwiftUI apps, React and TypeScript front ends, Node.js services and APIs. Creator of ClipBuddy on the Mac App Store. Available for contract and project work worldwide."
+    />
+    <meta name="theme-color" content="#0c0c0d" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#faf8f5" media="(prefers-color-scheme: light)" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Akash Surve — Freelance Full Stack &amp; macOS Developer" />
+    <meta
+      property="og:description"
+      content="Native macOS apps, React front ends and Node services. Creator of ClipBuddy on the Mac App Store. Available for freelance and contract work."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Akash Surve — Freelance Full Stack &amp; macOS Developer" />
+    <meta
+      name="twitter:description"
+      content="Native macOS apps, React front ends and Node services. Creator of ClipBuddy on the Mac App Store. Available for freelance and contract work."
+    />
+
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          // Same validation as useTheme: anything else is not a choice.
+          var d =
+            t === "dark"
+              ? true
+              : t === "light"
+                ? false
+                : window.matchMedia("(prefers-color-scheme: dark)").matches;
+          document.documentElement.classList.toggle("dark", d);
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
