@@ -28,7 +28,7 @@ const shot = (w480: string, w800: string, w1100: string, w1400: string, alt: str
 export const profile = {
   name: "Akash Surve",
   role: "Full Stack Engineer",
-  location: "Pune, India",
+  location: "Bangalore, India",
   email: "surveakash01@gmail.com",
   // BASE_URL so the link survives the documented subpath deploy; a
   // root-absolute string would not be rewritten.
@@ -178,12 +178,32 @@ export const caseStudies: CaseStudy[] = [
     tagline: "Product engineering across a large React portal and its Node services",
     year: "2023 — now",
     summary:
-      "I ship user-facing features end to end on a private-market intelligence platform: React in the portal, Node services and batch jobs behind it, usually in the same change. The through-line of the last year has been putting an AI assistant in front of users without disturbing the pages it lives on, and making internal content and file workflows feel immediate rather than queued.",
+      "I ship user-facing features end to end on a global market-intelligence platform used by investors, corporates and financial institutions: React in the portal, Node services, AWS Lambda functions and batch jobs behind it, usually in the same change. The last year has been mostly LLM work — an agentic documentation assistant, an internal MCP server, and chat surfaces embedded in pages people already use.",
     context: {
       heading: "Working inside a product that is already load-bearing",
       body: "Nothing here was built on a blank page. Every feature had to land inside a portal customers already use daily, alongside existing layouts, permission tiers and data contracts — which means most of the engineering is in the seams: what loads first, what is cached, what happens on a tablet, and what the page does while it waits.",
     },
     chapters: [
+      {
+        title: "An agentic documentation and research assistant",
+        body: "A multi-provider LLM agent answering questions against the product's own documentation and data. It picks tools rather than following a script: retrieval over the docs, web search, or a call into the platform's own search and feature APIs, depending on what the question needs.",
+        bullets: [
+          "Multi-provider — Claude, GPT and Gemini behind one interface, so a model choice is configuration rather than a rewrite",
+          "Retrieval-augmented answers with agentic tool-calling, streamed token by token",
+          "Intent detection routes a question to the right tool before spending a model call on it",
+          "Prompt caching and versioning: the cached prefix is the difference between viable and expensive at this volume",
+          "Answers export to DOCX, Excel and PDF, because the people asking need to send the result onward",
+        ],
+      },
+      {
+        title: "An internal MCP server for API migration",
+        body: "Model Context Protocol server exposing eight read-only tools over the migration surface, so an AI assistant can answer migration questions directly instead of an engineer reading release notes by hand.",
+        bullets: [
+          "Schema-field validation, fuzzy field matching and endpoint comparison across API versions",
+          "Read-only by design — the blast radius of a wrong answer is a wrong answer, not a wrong write",
+          "Cut manual API-migration effort across the engineering team",
+        ],
+      },
       {
         title: "An AI assistant embedded in the pages it talks about",
         body: "Rather than a separate chat destination, the assistant lives as a dock on the pages users are already reading — list views and entity detail pages — so the conversation starts with context instead of asking for it.",
@@ -237,11 +257,14 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
     details: [
-      "Home dashboard: integrations widget, custom-request sections per tier, contact-details CTA, and collapse state persisted to user preferences",
-      "Global search: report profile names in result URLs, and suggestion links fixed to prefer the canonical id",
-      "API playground extended to support every request content type",
-      "Chat chart tooltips fixed where the legend and canvas were clipping them",
-      "Tablet and small-screen layouts for the dashboard and the assistant docks",
+      "CRM connectors for Salesforce, HubSpot and Zoho — syncing entity data and driving deal, lead and account workflows, with a board view and pipeline UI",
+      "A Gmail add-on putting platform data and exported documents inside the user's mail workflow",
+      "Server-side PDF generation made 4× faster on Lambda with Puppeteer, through parallel rendering and profiling",
+      "Serverless infrastructure: a CloudFront invalidation handler and a Lambda authorizer for protected assets",
+      "Role-based access control and feature gating across the product",
+      "A compare tool for evaluating entities side by side, and a user-preferences module for personalised dashboards",
+      "Reusable UI component libraries, with lazy loading, code splitting and memoisation to cut bundle size",
+      "Home dashboard widgets, global search fixes, and tablet layouts for the dashboard and assistant docks",
     ],
     stack: [
       "React",
@@ -250,15 +273,16 @@ export const caseStudies: CaseStudy[] = [
       "Node.js",
       "MongoDB",
       "WebSockets",
-      "MDX",
-      "OpenAPI",
+      "LLM APIs",
+      "RAG",
+      "MCP",
       "AWS Lambda",
     ],
     metrics: [
-      { value: "100+", label: "PRs merged across portal & services" },
-      { value: "2", label: "codebases: React portal, Node platform" },
+      { value: "4\u00d7", label: "faster server-side PDF generation" },
+      { value: "3", label: "LLM providers behind one interface" },
       { value: "E2E", label: "UI, API and batch jobs in one change" },
-      { value: "~4y", label: "on the same product surface" },
+      { value: "3.5y", label: "on the same product surface" },
     ],
     links: [{ label: "tracxn.com", href: "https://tracxn.com" }],
     shots: [],
@@ -292,6 +316,7 @@ export const toolkit: { group: string; items: string[] }[] = [
   { group: "Front end", items: ["React", "Redux", "Tailwind CSS", "SwiftUI", "Astro", "Vite"] },
   { group: "Back end", items: ["Node.js", "Express", "MongoDB", "SQLite", "WebSockets", "REST"] },
   { group: "Platform", items: ["AWS Lambda", "Cloudflare Workers", "Git", "CI gates", "StoreKit"] },
+  { group: "AI", items: ["LLM APIs", "RAG", "Tool-calling agents", "MCP", "Prompt caching"] },
 ];
 
 type TimelineItem = {
@@ -349,6 +374,10 @@ export const services: { title: string; body: string }[] = [
   {
     title: "Node services & APIs",
     body: "REST services, real-time pipelines over WebSockets, batch jobs, and incremental migrations done without taking the product down.",
+  },
+  {
+    title: "LLM features",
+    body: "Retrieval-augmented assistants, tool-calling agents and MCP servers wired into a real product — including the streaming, caching and cost work that decides whether they survive contact with production.",
   },
   {
     title: "Rescue & polish",

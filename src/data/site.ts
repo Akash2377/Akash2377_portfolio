@@ -7,7 +7,7 @@ export const site = {
   url: "https://akashsurve2377.netlify.app",
   title: "Akash Surve — Freelance Full Stack & macOS Developer",
   description:
-    "Freelance full stack and macOS developer in Pune, India. Native Swift and SwiftUI apps, React and TypeScript front ends, Node.js services and APIs. Creator of ClipBuddy on the Mac App Store. Available for contract and project work worldwide.",
+    "Freelance full stack and macOS developer in Bangalore, India. Native Swift and SwiftUI apps, React and TypeScript front ends, Node.js services and APIs. Creator of ClipBuddy on the Mac App Store. Available for contract and project work worldwide.",
   locale: "en_IN",
   twitter: "@AkashSurve2377",
 };
@@ -25,7 +25,7 @@ export const faqs: Faq[] = [
   },
   {
     q: "What kind of projects do you take on?",
-    a: "Four kinds: native macOS apps in Swift and SwiftUI, including App Store submission; React and TypeScript front ends such as dashboards, editors and search interfaces; Node.js services, REST APIs and real-time pipelines; and rescue work on an existing build that is slow, broken on mobile, or stuck one step from shipping.",
+    a: "Five kinds: native macOS apps in Swift and SwiftUI, including App Store submission; React and TypeScript front ends such as dashboards, editors and search interfaces; Node.js services, REST APIs and real-time pipelines; LLM features — retrieval-augmented assistants, tool-calling agents and MCP servers wired into a real product; and rescue work on an existing build that is slow, broken on mobile, or stuck one step from shipping.",
   },
   {
     q: "How do you charge and how do engagements work?",
@@ -33,7 +33,7 @@ export const faqs: Faq[] = [
   },
   {
     q: "Where are you based and which timezones do you work with?",
-    a: "Pune, India, on IST (UTC+5:30). That overlaps a full working day with Europe and the UK, and mornings there are afternoons in Australia and Asia. For US clients I keep a fixed overlap window rather than pretending to be online at 3am — async written updates carry the rest.",
+    a: "Bangalore, India, on IST (UTC+5:30). That overlaps a full working day with Europe and the UK, and mornings there are afternoons in Australia and Asia. For US clients I keep a fixed overlap window rather than pretending to be online at 3am — async written updates carry the rest.",
   },
   {
     q: "Can you take a macOS app from idea to the Mac App Store?",
@@ -45,7 +45,7 @@ export const faqs: Faq[] = [
   },
   {
     q: "What is your stack?",
-    a: "TypeScript and JavaScript, Swift, and SQL day to day. React, Redux, Tailwind CSS, SwiftUI, Astro and Vite on the front end. Node.js, Express, MongoDB, SQLite and WebSockets on the back end. AWS Lambda and Cloudflare Workers for deployment, plus StoreKit and the Apple frameworks for macOS.",
+    a: "TypeScript and JavaScript, Swift, and SQL day to day. Claude, GPT and Gemini APIs with RAG, tool-calling and MCP for the AI work. React, Redux, Tailwind CSS, SwiftUI, Astro and Vite on the front end. Node.js, Express, MongoDB, SQLite and WebSockets on the back end. AWS Lambda and Cloudflare Workers for deployment, plus StoreKit and the Apple frameworks for macOS.",
   },
   {
     q: "How quickly do you reply?",

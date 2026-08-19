@@ -48,7 +48,7 @@ const jsonLd = {
       email: `mailto:${profile.email}`,
       jobTitle: profile.role,
       description: site.description,
-      address: { "@type": "PostalAddress", addressLocality: "Pune", addressRegion: "Maharashtra", addressCountry: "IN" },
+      address: { "@type": "PostalAddress", addressLocality: "Bengaluru", addressRegion: "Karnataka", addressCountry: "IN" },
       knowsAbout: skills,
       knowsLanguage: ["English", "Hindi", "Marathi"],
       sameAs: Object.values(socials),
