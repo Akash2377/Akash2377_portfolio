@@ -36,19 +36,26 @@ export default async function perf(browser, url) {
           for (const entry of list.getEntries()) out.lcp = Math.round(entry.startTime);
         }).observe({ type: "largest-contentful-paint", buffered: true });
 
-        const fcp = performance.getEntriesByName("first-contentful-paint")[0];
-        out.fcp = fcp ? Math.round(fcp.startTime) : null;
+        // Observed rather than sampled: reading the entry up front races the
+        // paint, and on a fast local build it was sometimes not recorded yet,
+        // which surfaced as a null FCP long after the page had painted.
+        new PerformanceObserver((list) => {
+          for (const entry of list.getEntries()) {
+            if (entry.name === "first-contentful-paint") out.fcp = Math.round(entry.startTime);
+          }
+        }).observe({ type: "paint", buffered: true });
 
-        const resources = performance.getEntriesByType("resource");
-        out.requests = resources.length;
-        out.transferKB = Math.round(
-          resources.reduce((sum, res) => sum + (res.transferSize || 0), 0) / 1024,
-        );
-        out.blocking = resources
-          .filter((res) => res.renderBlockingStatus === "blocking")
-          .map((res) => res.name.split("/").pop());
-
-        setTimeout(() => resolve(out), 2500);
+        setTimeout(() => {
+          const resources = performance.getEntriesByType("resource");
+          out.requests = resources.length;
+          out.transferKB = Math.round(
+            resources.reduce((sum, res) => sum + (res.transferSize || 0), 0) / 1024,
+          );
+          out.blocking = resources
+            .filter((res) => res.renderBlockingStatus === "blocking")
+            .map((res) => res.name.split("/").pop());
+          resolve(out);
+        }, 2500);
       }),
   );
 
