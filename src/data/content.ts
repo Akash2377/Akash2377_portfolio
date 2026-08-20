@@ -25,9 +25,19 @@ const shot = (w480: string, w800: string, w1100: string, w1400: string, alt: str
   alt,
 });
 
+/** Tracxn start date. Tenure below is derived from it so no number goes stale. */
+const TRACXN_START = new Date("2023-01-01T00:00:00Z");
+
+/** Floored to the nearest half-year, so the figure can only ever understate. */
+const tenure = (start = TRACXN_START, now = new Date()) => {
+  const months =
+    (now.getFullYear() - start.getUTCFullYear()) * 12 + (now.getMonth() - start.getUTCMonth());
+  return `${Math.floor(months / 6) / 2}y`;
+};
+
 export const profile = {
   name: "Akash Surve",
-  role: "Full Stack Engineer",
+  role: "Full-Stack Software Engineer",
   location: "Bangalore, India",
   email: "surveakash01@gmail.com",
   // BASE_URL so the link survives the documented subpath deploy; a
@@ -96,7 +106,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         title: "Entitlement with no account system",
-        body: "Free tier is the last ten clips plus the emoji picker; Pro unlocks history, search, snippets and labels. There is no login, no licence key, no backend to check against — StoreKit is the only authority.",
+        body: "Free tier is the last ten clips plus the emoji picker; Pro unlocks history, search, snippets and labels. There is no login, no license key, no backend to check against — StoreKit is the only authority.",
         bullets: [
           "A single access object reads Apple's on-device entitlements and fails closed",
           "Every surface observes it, so there is one place to be wrong instead of forty",
@@ -110,7 +120,7 @@ export const caseStudies: CaseStudy[] = [
         bullets: [
           "Configurable picker hotkey, with registration failures surfaced instead of failing silently",
           "Type-to-search across the whole history, not just the visible page",
-          "Opt-in direct paste behind a compile flag — Accessibility is requested only when a user enables it, never at launch",
+          "Direct paste is opt-in and off by default — Accessibility is requested the moment a user turns it on, never at launch",
           "Labels with their own hotkeys, so a frequent set is one chord away",
         ],
       },
@@ -126,12 +136,12 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         title: "The native surface area nobody sees until it is missing",
-        body: "The long tail is most of the work in a Mac app: system integrations, appearance, localisation, and the dozens of small affordances that separate a native app from a cross-platform shell.",
+        body: "The long tail is most of the work in a Mac app: system integrations, appearance, localization, and the dozens of small affordances that separate a native app from a cross-platform shell.",
         bullets: [
           "OCR through Apple Vision — a screenshot becomes searchable by the words inside it",
           "Translation through Apple's on-device Translation framework",
-          "Snippets with expansion keywords, quick actions for QR, colour swatches and calculations",
-          "16 localisations, light and dark themes, backup and restore",
+          "Snippets with expansion keywords, quick actions for QR, color swatches and calculations",
+          "16 localizations, light and dark themes, backup and restore",
         ],
       },
     ],
@@ -221,7 +231,7 @@ export const caseStudies: CaseStudy[] = [
           "Assistant access wired up tier by tier across portal, services and the external embed",
           "Feature gating that waits for route and status config to load, instead of flashing the wrong menu",
           "Out-of-credit handling: usage popper, reset date, and a takeover state kept in sync with the chat",
-          "Click and conversation ids attached to chat logs so behaviour could be measured, not guessed",
+          "Click and conversation ids attached to chat logs so behavior could be measured, not guessed",
         ],
       },
       {
@@ -263,7 +273,7 @@ export const caseStudies: CaseStudy[] = [
       "Serverless infrastructure: a CloudFront invalidation handler and a Lambda authorizer for protected assets",
       "Role-based access control and feature gating across the product",
       "A compare tool for evaluating entities side by side, and a user-preferences module for personalised dashboards",
-      "Reusable UI component libraries, with lazy loading, code splitting and memoisation to cut bundle size",
+      "Reusable UI component libraries, with lazy loading, code splitting and memoization to cut bundle size",
       "Home dashboard widgets, global search fixes, and tablet layouts for the dashboard and assistant docks",
     ],
     stack: [
@@ -282,7 +292,7 @@ export const caseStudies: CaseStudy[] = [
       { value: "4\u00d7", label: "faster server-side PDF generation" },
       { value: "3", label: "LLM providers behind one interface" },
       { value: "E2E", label: "UI, API and batch jobs in one change" },
-      { value: "3.5y", label: "on the same product surface" },
+      { value: tenure(), label: "on the same product surface" },
     ],
     links: [{ label: "tracxn.com", href: "https://tracxn.com" }],
     shots: [],
@@ -330,7 +340,7 @@ type TimelineItem = {
 export const timeline: TimelineItem[] = [
   {
     period: "2023 — Present",
-    title: "Full Stack Engineer",
+    title: "Full-Stack Software Engineer",
     org: "Tracxn",
     kind: "work",
     detail:
@@ -434,7 +444,7 @@ export const engagement: { step: string; title: string; body: string }[] = [
 export const evidence: { label: string; detail: string; href: string }[] = [
   {
     label: "GitHub",
-    detail: "Open source and the repositories behind the work above",
+    detail: "Code history, side projects and the tooling I build for myself",
     href: socials.github,
   },
   {
