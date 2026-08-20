@@ -66,7 +66,7 @@ const jsonLd = {
     {
       "@type": "ProfessionalService",
       "@id": abs("#practice"),
-      name: `${profile.name} — Freelance Software Development`,
+      name: `${profile.name} · Freelance Software Development`,
       url: abs("#contact"),
       email: `mailto:${profile.email}`,
       description:

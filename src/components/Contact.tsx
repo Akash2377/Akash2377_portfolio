@@ -13,7 +13,7 @@ export default function Contact() {
     >
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
-          <span className="label">06 — Contact</span>
+          <span className="label">06 · Contact</span>
         </Reveal>
 
         <div className="mt-8 grid gap-12 lg:grid-cols-12 lg:gap-14">
@@ -105,7 +105,7 @@ export default function Contact() {
             </ul>
             <p className="mt-4 text-xs leading-relaxed text-ink-mute">
               Based in {profile.location}, working with teams in any timezone.
-              Fixed-scope projects or ongoing hours — whichever fits what you're
+              Fixed-scope projects or ongoing hours, whichever fits what you're
               building.
             </p>
           </Reveal>

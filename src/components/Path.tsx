@@ -31,7 +31,7 @@ export default function Path() {
               </div>
               <h3 className="mt-2 text-xl font-medium">
                 {item.title}
-                <span className="text-ink-mute"> — {item.org}</span>
+                <span className="text-ink-mute"> · {item.org}</span>
               </h3>
               <p className="mt-2 max-w-2xl text-sm leading-relaxed text-ink-mute">
                 {item.detail}

@@ -7,7 +7,7 @@ export default function Faq() {
       id="faq"
       index="05"
       title="Freelance FAQ"
-      intro="What people ask before the first email — availability, scope, rates, timezones."
+      intro="What people ask before the first email: availability, scope, rates, timezones."
     >
       <dl className="grid gap-px overflow-hidden rounded-xl border border-line bg-line md:grid-cols-2">
         {faqs.map((item, i) => (

@@ -19,7 +19,7 @@ export default function About() {
 
           <blockquote className="mt-10 border-l-2 border-accent pl-5">
             <p className="display text-2xl leading-snug sm:text-3xl">
-              The interesting part of a feature is never the happy path — it is
+              The interesting part of a feature is never the happy path. It is
               what the interface does while it waits, fails, or gets resized.
             </p>
           </blockquote>

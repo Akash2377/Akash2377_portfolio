@@ -44,10 +44,10 @@ export const profile = {
   // root-absolute string would not be rewritten.
   resume: `${import.meta.env.BASE_URL}Akash_Surve_Resume.pdf`,
   status: "Shipping ClipBuddy 2.9 · Building AI surfaces at Tracxn",
-  lede: "I build the parts of a product people actually touch — search surfaces, editors, chat docks, upload pipelines — and I ship them all the way to real users.",
+  lede: "I build the parts of a product people actually touch: search surfaces, editors, chat docks, upload pipelines. Then I ship them all the way to real users.",
   bio: [
     "I came to software from mechanical engineering, which is a useful accident: I was taught to think about tolerances, failure modes and the difference between a thing that works and a thing that keeps working. Most of what I do now is that, applied to interfaces.",
-    "I like the work that sits between disciplines — the feature that needs a UI decision, an API change and a migration in the same pull request. Shipping ClipBuddy alone forced me to get comfortable with every part of that chain, from a SQLite schema to App Store review.",
+    "I like the work that sits between disciplines: the feature that needs a UI decision, an API change and a migration in the same pull request. Shipping ClipBuddy alone forced me to get comfortable with every part of that chain, from a SQLite schema to App Store review.",
   ],
 };
 
@@ -56,8 +56,6 @@ export const socials = {
   linkedin: "https://www.linkedin.com/in/akashsurve/",
   twitter: "https://twitter.com/AkashSurve2377",
   leetcode: "https://leetcode.com/Akash2377/",
-  stackoverflow: "https://stackoverflow.com/users/19786860/akash-surve",
-  hashnode: "https://hashnode.com/@Akash2377",
 };
 
 export type CaseStudy = {
@@ -86,12 +84,12 @@ export const caseStudies: CaseStudy[] = [
     kicker: "Product · Solo",
     name: "ClipBuddy",
     tagline: "A native macOS clipboard manager, on the Mac App Store",
-    year: "2025 — now",
+    year: "2025–now",
     summary:
       "Everything you copy, kept locally and searchable in a keystroke. A menu-bar app in Swift and SwiftUI over a local SQLite store with full-text search, a picker drawer on a global hotkey, and no account anywhere in the product. I designed it, built it, shipped it, wrote the marketing site, and run the releases.",
     context: {
       heading: "The constraint that shaped everything",
-      body: "A clipboard manager sees every password, every API key, every private message you copy. That makes trust the whole product, and trust you can only assert is worth nothing. So the privacy claim had to be structural: no account system, no server, no sync path — nothing to leak because there is nowhere for data to go. Every feature since has had to fit inside that constraint, and several obvious ones were cut because they did not.",
+      body: "A clipboard manager sees every password, every API key, every private message you copy. That makes trust the whole product, and trust you can only assert is worth nothing. So the privacy claim had to be structural: no account system, no server, no sync path. Nothing to leak, because there is nowhere for data to go. Every feature since has had to fit inside that constraint, and several obvious ones were cut because they did not.",
     },
     chapters: [
       {
@@ -99,14 +97,14 @@ export const caseStudies: CaseStudy[] = [
         body: "History lives in a single SQLite database in the app's container, with an FTS5 virtual table for search and image blobs on disk beside it rather than in the row. Search stays instant because the index does the work, not a scan.",
         bullets: [
           "FTS5 full-text index over clip contents, kept in sync on write",
-          "Images stored as files, referenced by id — the database stays small",
+          "Images stored as files and referenced by id, so the database stays small",
           "A schema migration ledger so a database written by any past version opens correctly",
           "Probe connections opened read-write, after a WAL-mode bug proved a read-only probe silently reports 'no version'",
         ],
       },
       {
         title: "Entitlement with no account system",
-        body: "Free tier is the last ten clips plus the emoji picker; Pro unlocks history, search, snippets and labels. There is no login, no license key, no backend to check against — StoreKit is the only authority.",
+        body: "Free tier is the last ten clips plus the emoji picker; Pro unlocks history, search, snippets and labels. There is no login, no license key, no backend to check against. StoreKit is the only authority.",
         bullets: [
           "A single access object reads Apple's on-device entitlements and fails closed",
           "Every surface observes it, so there is one place to be wrong instead of forty",
@@ -120,7 +118,7 @@ export const caseStudies: CaseStudy[] = [
         bullets: [
           "Configurable picker hotkey, with registration failures surfaced instead of failing silently",
           "Type-to-search across the whole history, not just the visible page",
-          "Direct paste is opt-in and off by default — Accessibility is requested the moment a user turns it on, never at launch",
+          "Direct paste is opt-in and off by default. Accessibility is requested the moment a user turns it on, never at launch",
           "Labels with their own hotkeys, so a frequent set is one chord away",
         ],
       },
@@ -128,7 +126,7 @@ export const caseStudies: CaseStudy[] = [
         title: "Release engineering, because there is nobody else",
         body: "Solo shipping means the process has to catch what a second reviewer would. Most of the tooling in the repo exists because a specific bug got through once and is not allowed to again.",
         bullets: [
-          "One reproducible App Store build script — compiling is not packaging, and the script enforces that",
+          "One reproducible App Store build script, because compiling is not packaging and the script enforces that",
           "Source gates wired into the build that fail on known-bad patterns, added after a modal-dispatch bug froze the app invisibly",
           "A manual pass checklist per release covering every surface a change can touch",
           "Version discipline across the plist, the tag and the store listing, so a rejected build can be re-uploaded without ambiguity",
@@ -138,7 +136,7 @@ export const caseStudies: CaseStudy[] = [
         title: "The native surface area nobody sees until it is missing",
         body: "The long tail is most of the work in a Mac app: system integrations, appearance, localization, and the dozens of small affordances that separate a native app from a cross-platform shell.",
         bullets: [
-          "OCR through Apple Vision — a screenshot becomes searchable by the words inside it",
+          "OCR through Apple Vision, so a screenshot becomes searchable by the words inside it",
           "Translation through Apple's on-device Translation framework",
           "Snippets with expansion keywords, quick actions for QR, color swatches and calculations",
           "16 localizations, light and dark themes, backup and restore",
@@ -147,7 +145,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     details: [
       "Marketing site rebuilt from a React SPA to Astro static output, served through a Cloudflare Worker",
-      "Migrated off direct distribution — Sparkle updater, Ed25519 licensing and payment integration all removed for a store-only build",
+      "Migrated off direct distribution. Sparkle updater, Ed25519 licensing and payment integration all removed for a store-only build",
       "Privacy policy written to disclose the one outbound request the app makes: a daily version check carrying only the public store id",
       "Press kit, App Store screenshots and store copy produced in-house",
     ],
@@ -179,26 +177,26 @@ export const caseStudies: CaseStudy[] = [
       shot(stats480, stats800, stats1100, stats1400, "Usage statistics, computed entirely on device"),
     ],
     accentNote:
-      "Designed, built, shipped and supported solo — app, marketing site, store listing and release pipeline.",
+      "Designed, built, shipped and supported solo: app, marketing site, store listing and release pipeline.",
   },
   {
     id: "tracxn",
     kicker: "Work · Tracxn",
     name: "AI surfaces & platform work",
     tagline: "Product engineering across a large React portal and its Node services",
-    year: "2023 — now",
+    year: "2023–now",
     summary:
-      "I ship user-facing features end to end on a global market-intelligence platform used by investors, corporates and financial institutions: React in the portal, Node services, AWS Lambda functions and batch jobs behind it, usually in the same change. The last year has been mostly LLM work — an agentic documentation assistant, an internal MCP server, and chat surfaces embedded in pages people already use.",
+      "I ship user-facing features end to end on a global market-intelligence platform used by investors, corporates and financial institutions: React in the portal, Node services, AWS Lambda functions and batch jobs behind it, usually in the same change. The last year has been mostly LLM work: an agentic documentation assistant, an internal MCP server, and chat surfaces embedded in pages people already use.",
     context: {
       heading: "Working inside a product that is already load-bearing",
-      body: "Nothing here was built on a blank page. Every feature had to land inside a portal customers already use daily, alongside existing layouts, permission tiers and data contracts — which means most of the engineering is in the seams: what loads first, what is cached, what happens on a tablet, and what the page does while it waits.",
+      body: "Nothing here was built on a blank page. Every feature had to land inside a portal customers already use daily, alongside existing layouts, permission tiers and data contracts, which means most of the engineering is in the seams: what loads first, what is cached, what happens on a tablet, and what the page does while it waits.",
     },
     chapters: [
       {
         title: "An agentic documentation and research assistant",
         body: "A multi-provider LLM agent answering questions against the product's own documentation and data. It picks tools rather than following a script: retrieval over the docs, web search, or a call into the platform's own search and feature APIs, depending on what the question needs.",
         bullets: [
-          "Multi-provider — Claude, GPT and Gemini behind one interface, so a model choice is configuration rather than a rewrite",
+          "Multi-provider. Claude, GPT and Gemini sit behind one interface, so a model choice is configuration rather than a rewrite",
           "Retrieval-augmented answers with agentic tool-calling, streamed token by token",
           "Intent detection routes a question to the right tool before spending a model call on it",
           "Prompt caching and versioning: the cached prefix is the difference between viable and expensive at this volume",
@@ -210,13 +208,13 @@ export const caseStudies: CaseStudy[] = [
         body: "Model Context Protocol server exposing eight read-only tools over the migration surface, so an AI assistant can answer migration questions directly instead of an engineer reading release notes by hand.",
         bullets: [
           "Schema-field validation, fuzzy field matching and endpoint comparison across API versions",
-          "Read-only by design — the blast radius of a wrong answer is a wrong answer, not a wrong write",
+          "Read-only by design, so the blast radius of a wrong answer is a wrong answer and not a wrong write",
           "Cut manual API-migration effort across the engineering team",
         ],
       },
       {
         title: "An AI assistant embedded in the pages it talks about",
-        body: "Rather than a separate chat destination, the assistant lives as a dock on the pages users are already reading — list views and entity detail pages — so the conversation starts with context instead of asking for it.",
+        body: "Rather than a separate chat destination, the assistant lives as a dock on the pages users are already reading (list views and entity detail pages), so the conversation starts with context instead of asking for it.",
         bullets: [
           "Entity-scoped detail-page chat: the conversation knows which company or record you are looking at",
           "List-page refine bar with an expanded composer and a bottom-up flyout",
@@ -236,7 +234,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         title: "A documentation content manager, editor to published page",
-        body: "An internal CMS for the developer documentation, covering authoring, preview, structure and search — plus the OpenAPI surfaces the docs are generated from.",
+        body: "An internal CMS for the developer documentation, covering authoring, preview, structure and search, plus the OpenAPI surfaces the docs are generated from.",
         bullets: [
           "MDX editor with live preview and a full-page preview mode",
           "Nested resource tree up to ten levels, with inherited access badges",
@@ -257,7 +255,7 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         title: "Migrations and platform work with the product live",
-        body: "A share of the work is not a feature at all: moving consumers onto current API versions, retiring dead code paths, and keeping shared libraries current — always incrementally, never behind a freeze.",
+        body: "A share of the work is not a feature at all: moving consumers onto current API versions, retiring dead code paths, and keeping shared libraries current, always incrementally and never behind a freeze.",
         bullets: [
           "Saved-search consumers moved from a legacy API version to the current one across portal features and batch jobs",
           "Feed cards and applicant flows migrated between major API versions",
@@ -267,7 +265,7 @@ export const caseStudies: CaseStudy[] = [
       },
     ],
     details: [
-      "CRM connectors for Salesforce, HubSpot and Zoho — syncing entity data and driving deal, lead and account workflows, with a board view and pipeline UI",
+      "CRM connectors for Salesforce, HubSpot and Zoho, syncing entity data and driving deal, lead and account workflows, with a board view and pipeline UI",
       "A Gmail add-on putting platform data and exported documents inside the user's mail workflow",
       "Server-side PDF generation made 4× faster on Lambda with Puppeteer, through parallel rendering and profiling",
       "Serverless infrastructure: a CloudFront invalidation handler and a Lambda authorizer for protected assets",
@@ -297,7 +295,7 @@ export const caseStudies: CaseStudy[] = [
     links: [{ label: "tracxn.com", href: "https://tracxn.com" }],
     shots: [],
     accentNote:
-      "Feature work described at capability level — implementation details and internal systems stay internal.",
+      "Feature work described at capability level. Implementation details and internal systems stay internal.",
   },
 ];
 
@@ -313,7 +311,7 @@ export const principles: { title: string; body: string }[] = [
   },
   {
     title: "Make the guarantee structural",
-    body: "If a promise can be broken by someone editing a file, it is not a guarantee. I prefer constraints the architecture enforces — no sync path, one access authority, a build that fails on a known-bad pattern.",
+    body: "If a promise can be broken by someone editing a file, it is not a guarantee. I prefer constraints the architecture enforces: no sync path, one access authority, a build that fails on a known-bad pattern.",
   },
   {
     title: "Leave the codebase legible",
@@ -323,7 +321,7 @@ export const principles: { title: string; body: string }[] = [
 
 export const toolkit: { group: string; items: string[] }[] = [
   { group: "Languages", items: ["TypeScript", "JavaScript", "Swift", "Java", "SQL"] },
-  { group: "Front end", items: ["React", "Redux", "Tailwind CSS", "SwiftUI", "Astro", "Vite"] },
+  { group: "Front end", items: ["React", "Redux", "Next.js", "Tailwind CSS", "SwiftUI", "Astro", "Vite"] },
   { group: "Back end", items: ["Node.js", "Express", "MongoDB", "SQLite", "WebSockets", "REST"] },
   { group: "Platform", items: ["AWS Lambda", "Cloudflare Workers", "Git", "CI gates", "StoreKit"] },
   { group: "AI", items: ["LLM APIs", "RAG", "Tool-calling agents", "MCP", "Prompt caching"] },
@@ -339,7 +337,7 @@ type TimelineItem = {
 
 export const timeline: TimelineItem[] = [
   {
-    period: "2023 — Present",
+    period: "2023–Present",
     title: "Full-Stack Software Engineer",
     org: "Tracxn",
     kind: "work",
@@ -347,7 +345,7 @@ export const timeline: TimelineItem[] = [
       "Product engineering on the private-market intelligence platform: AI assistant surfaces, documentation tooling, real-time upload pipelines and API migrations, across a React portal and Node services.",
   },
   {
-    period: "2025 — Present",
+    period: "2025–Present",
     title: "Founder & sole engineer",
     org: "ClipBuddy",
     kind: "product",
@@ -363,11 +361,11 @@ export const timeline: TimelineItem[] = [
       "Full-time MERN program. Awarded The Power Project, The Founder's Circle and the Rising Star award for project work and consistency.",
   },
   {
-    period: "2019 — 2022",
+    period: "2019–2022",
     title: "B.E. Mechanical Engineering",
     org: "Savitribai Phule Pune University",
     kind: "education",
-    detail: "Preceded by a Diploma in Mechanical Engineering, MSBTE, 2016 — 2019.",
+    detail: "Preceded by a Diploma in Mechanical Engineering, MSBTE, 2016–2019.",
   },
 ];
 
@@ -375,7 +373,7 @@ export const timeline: TimelineItem[] = [
 export const services: { title: string; body: string }[] = [
   {
     title: "macOS apps",
-    body: "Native Swift and SwiftUI — menu-bar utilities, local-first storage, StoreKit, and the App Store submission that usually turns out to be the hard part.",
+    body: "Native Swift and SwiftUI. Menu-bar utilities, local-first storage, StoreKit, and the App Store submission that usually turns out to be the hard part.",
   },
   {
     title: "React front ends",
@@ -387,7 +385,7 @@ export const services: { title: string; body: string }[] = [
   },
   {
     title: "LLM features",
-    body: "Retrieval-augmented assistants, tool-calling agents and MCP servers wired into a real product — including the streaming, caching and cost work that decides whether they survive contact with production.",
+    body: "Retrieval-augmented assistants, tool-calling agents and MCP servers wired into a real product, including the streaming, caching and cost work that decides whether they survive contact with production.",
   },
   {
     title: "Rescue & polish",
@@ -397,7 +395,7 @@ export const services: { title: string; body: string }[] = [
 
 export const contact = {
   heading: "Let's build something.",
-  body: "I'm open to freelance and contract work alongside my full-time role — macOS apps, React front ends, Node services, or getting something unfinished across the line. Tell me what you're building and roughly when you need it, and I'll tell you honestly whether I'm the right fit.",
+  body: "I'm open to freelance and contract work alongside my full-time role: macOS apps, React front ends, Node services, or getting something unfinished across the line. Tell me what you're building and roughly when you need it, and I'll tell you honestly whether I'm the right fit.",
   mailtoSubject: "Freelance enquiry",
   mailtoBody:
     "Hi Akash,\n\nWhat I'm building:\n\nWhat I need help with:\n\nRough timeline and budget:\n\n",
@@ -448,18 +446,8 @@ export const evidence: { label: string; detail: string; href: string }[] = [
     href: socials.github,
   },
   {
-    label: "Hashnode",
-    detail: "Writing on things I have had to work out the hard way",
-    href: socials.hashnode,
-  },
-  {
-    label: "Stack Overflow",
-    detail: "Answers, mostly JavaScript and React",
-    href: socials.stackoverflow,
-  },
-  {
     label: "LeetCode",
-    detail: "Data structures and algorithms practice",
+    detail: "Data structures and algorithms, nearly 300 problems solved",
     href: socials.leetcode,
   },
 ];

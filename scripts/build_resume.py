@@ -100,7 +100,7 @@ story.append(Paragraph(
     f"Full-Stack Software Engineer with {tenure()} building scalable, high-performance, configurable web "
     "applications across React.js/Redux frontends and Node.js backends. Strong in reusable UI component "
     "libraries, responsive interfaces, and cross-browser performance optimization, with growing depth in "
-    "AI-augmented engineering &mdash; building Model Context Protocol (MCP) tooling, integrating LLM-powered "
+    "AI-augmented engineering: building Model Context Protocol (MCP) tooling, integrating LLM-powered "
     "features, and shipping AWS serverless and CRM integrations on a global financial-intelligence platform. "
     "Also ships a native macOS app on the Mac App Store, solo.",
     body_style))
@@ -121,40 +121,40 @@ for label, val in skills:
 
 # ---- Experience ----
 story += section("Work Experience")
-story.append(Paragraph("Full-Stack Software Engineer &mdash; Tracxn", job_style))
+story.append(Paragraph("Full-Stack Software Engineer, Tracxn", job_style))
 story.append(Paragraph(
     "Jan 2023 &ndash; Present &nbsp;|&nbsp; Bangalore, India &nbsp;|&nbsp; "
     "Global market-intelligence platform for investors, corporates, and financial institutions.",
     jobmeta_style))
 story.append(bullets([
-    "Building an <b>AI-powered documentation and research assistant</b> (docs service) &mdash; a multi-provider LLM agent (Claude/Opus, GPT, Gemini) with agentic tool-calling that searches docs via RAG, runs web search, and executes Tracxn search/feature APIs to answer user queries, with streaming responses, intent detection, prompt caching/versioning, and DOCX/Excel/PDF export.",
-    "Built an internal <b>Model Context Protocol (MCP) server</b> (<i>tracxn-api-migration</i>) exposing 8 read-only tools &mdash; schema-field validation, fuzzy field matching, and endpoint comparison &mdash; enabling AI assistants to query migration notes and cutting manual API-migration effort across the engineering team.",
-    "Delivered <b>CRM integrations</b> &mdash; Salesforce, HubSpot, and Zoho connectors &mdash; syncing company/entity data and enabling deal, lead, and account workflows, with CRM board-view and pipeline UI.",
+    "Building an <b>AI-powered documentation and research assistant</b> (docs service): a multi-provider LLM agent (Claude/Opus, GPT, Gemini) with agentic tool-calling that searches docs via RAG, runs web search, and executes Tracxn search/feature APIs to answer user queries, with streaming responses, intent detection, prompt caching/versioning, and DOCX/Excel/PDF export.",
+    "Built an internal <b>Model Context Protocol (MCP) server</b> (<i>tracxn-api-migration</i>) exposing 8 read-only tools (schema-field validation, fuzzy field matching, and endpoint comparison), enabling AI assistants to query migration notes and cutting manual API-migration effort across the engineering team.",
+    "Delivered <b>CRM integrations</b> for Salesforce, HubSpot, and Zoho, syncing company/entity data and enabling deal, lead, and account workflows, with CRM board-view and pipeline UI.",
     "Built a <b>Gmail add-on</b> surfacing Tracxn data and exported documents directly into users' email workflow.",
     "Drove <b>AI-augmented development</b> using Claude Code, custom agents, and codebase-context tooling, accelerating feature delivery and reducing onboarding ramp time.",
     "Engineered <b>AWS serverless</b> functions (Serverless Framework) including a CloudFront-invalidation handler and a protected-asset Lambda authorizer.",
     "Optimized server-side PDF generation by <b>4&times;</b> using AWS Lambda and Puppeteer with parallel rendering and performance tuning.",
     "Designed a User Preferences module (personalized dashboards, configurable UX) and a Compare Tool for evaluating entities side-by-side, with advanced filtering, sorting, and search driven by dynamic configurations and Redux state.",
     "Developed a Feature Access and Role-Based Access Control (RBAC) system, strengthening security, compliance, and feature-visibility management.",
-    "Engineered and maintained large-scale, user-facing React.js and Redux applications, and built the reusable UI component libraries behind them &mdash; lazy loading, code splitting, and memoization cutting bundle size and improving load performance.",
+    "Engineered and maintained large-scale, user-facing React.js and Redux applications, and built the reusable UI component libraries behind them, where lazy loading, code splitting, and memoization cut bundle size and improving load performance.",
     "Conducted design and code reviews, mentored new engineers, and collaborated cross-functionally for seamless end-to-end delivery.",
 ]))
 
 # ---- Projects ----
 story += section("Projects")
 story.append(bullets([
-    "<b>ClipBuddy</b> &mdash; native macOS clipboard manager in Swift/SwiftUI over a local SQLite store with FTS5 "
+    "<b>ClipBuddy</b>, a native macOS clipboard manager in Swift/SwiftUI over a local SQLite store with FTS5 "
     "search; StoreKit subscriptions, 16 localizations, no account or server. Shipped solo: app, site, listing, "
     "release pipeline. " + link(CLIPBUDDY_SITE, "clipbuddyapp.com") + " &nbsp;|&nbsp; "
     + link(CLIPBUDDY_MAS, "Mac App Store"),
-    "<b>AI Developer Tooling</b> &mdash; custom AI agents, Claude Code skills, and MCP integrations automating code "
+    "<b>AI Developer Tooling</b>, including custom AI agents, Claude Code skills, and MCP integrations automating code "
     "search, migration, and review; full-stack LLM app using React with the Claude/OpenAI APIs, RAG, and agentic workflows.",
 ]))
 
 # ---- Education ----
 story += section("Education")
 story.append(Paragraph("<b>BE in Mechanical Engineering</b> &nbsp;|&nbsp; Savitribai Phule Pune University, 2019&ndash;2022", body_style))
-story.append(Paragraph("<b>Full-Stack Web Development</b> &nbsp;|&nbsp; Masai School, 2022 &mdash; 30-week program: JavaScript, React.js, Redux, Node.js, Agile, code reviews.", body_style))
+story.append(Paragraph("<b>Full-Stack Web Development</b> &nbsp;|&nbsp; Masai School, 2022. 30-week program: JavaScript, React.js, Redux, Node.js, Agile, code reviews.", body_style))
 
 doc = SimpleDocTemplate(
     OUT, pagesize=letter,
