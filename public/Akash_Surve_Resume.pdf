@@ -1,474 +1,120 @@
-%PDF-1.3
-%âãÏÓ
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document (opensource)
 1 0 obj
 <<
-/Type /Catalog
-/Pages 2 0 R
+/F1 2 0 R /F2 3 0 R /F3 7 0 R
 >>
 endobj
 2 0 obj
 <<
-/Type /Pages
-/Count 1
-/Kids [ 3 0 R ]
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
 >>
 endobj
 3 0 obj
 <<
-/Annots [ 4 0 R 5 0 R ]
-/Contents 6 0 R
-/MediaBox [ 0 0 612 792 ]
-/Resources <<
-/Font 7 0 R
-/ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->>
-/Rotate 0
-/Trans <<
->>
-/Type /Page
-/Parent 2 0 R
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
 >>
 endobj
 4 0 obj
 <<
 /A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057www\056linkedin\056com\057in\057akashsurve\057)
->>
-/Border [ 0 0 0 ]
-/Rect [ 315.3522 701.56 348.2382 712 ]
-/Subtype /Link
-/Type /Annot
+/S /URI /Type /Action /URI (https://akashsurve2377.netlify.app)
+>> /Border [ 0 0 0 ] /Rect [ 315.3522 701.56 347.2638 712 ] /Subtype /Link /Type /Annot
 >>
 endobj
 5 0 obj
 <<
 /A <<
-/S /URI
-/Type /Action
-/URI (https\072\057\057github\056com\057Akash2377)
->>
-/Border [ 0 0 0 ]
-/Rect [ 360.1746 701.56 387.249 712 ]
-/Subtype /Link
-/Type /Annot
+/S /URI /Type /Action /URI (https://www.linkedin.com/in/akashsurve/)
+>> /Border [ 0 0 0 ] /Rect [ 359.2002 701.56 392.0862 712 ] /Subtype /Link /Type /Annot
 >>
 endobj
 6 0 obj
 <<
-/Length 10348
+/A <<
+/S /URI /Type /Action /URI (https://github.com/Akash2377)
+>> /Border [ 0 0 0 ] /Rect [ 404.0226 701.56 431.097 712 ] /Subtype /Link /Type /Annot
 >>
-stream
-1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
-q
-1 0 0 1 45.6 728 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 3 Tm /F2 19 Tf 22 TL (AKASH SURVE) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 714 cm
-q
-.266667 .266667 .266667 rg
-BT 1 0 0 1 0 2 Tm /F1 11 Tf 13 TL (Full-Stack Software Engineer) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 701 cm
-q
-BT 1 0 0 1 0 2.3 Tm 11 TL /F1 8.7 Tf .266667 .266667 .266667 rg (Bangalore, India  ) Tj (|) Tj (  +91 86684 58742  ) Tj (|) Tj (  surveakash01@gmail.com  ) Tj (|) Tj (  ) Tj .066667 .333333 .8 rg (LinkedIn) Tj .266667 .266667 .266667 rg (  ) Tj (|) Tj (  ) Tj .066667 .333333 .8 rg (GitHub) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 695.2 cm
-q
-.8 w
-1 J
-.6 .6 .6 RG
-n 0 0 m 520.8 0 l S
-Q
-Q
-q
-1 0 0 1 45.6 678.6 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.4 Tm /F2 10.2 Tf 11.6 TL (SUMMARY) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 677 cm
-q
-.6 w
-1 J
-.6 .6 .6 RG
-n 0 0 m 520.8 0 l S
-Q
-Q
-q
-1 0 0 1 45.6 617 cm
-q
-BT 1 0 0 1 0 47.8 Tm 11.4 TL /F1 9.2 Tf .101961 .101961 .101961 rg (Full-Stack Software Engineer with 3+ years building scalable, high-performance, configurable web applications across) Tj T* (React.js/Redux frontends and Node.js backends. Strong in reusable UI component libraries, responsive interfaces, and) Tj T* (cross-browser performance optimization, with growing depth in AI-augmented engineering \227 building Model Context Protocol) Tj T* (\(MCP\) tooling, integrating LLM-powered features, and shipping AWS serverless and CRM integrations on a global) Tj T* (financial-intelligence platform.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 600.4 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.4 Tm /F2 10.2 Tf 11.6 TL (SKILLS) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 598.8 cm
-q
-.6 w
-1 J
-.6 .6 .6 RG
-n 0 0 m 520.8 0 l S
-Q
-Q
-q
-1 0 0 1 45.6 584.4 cm
-q
-BT 1 0 0 1 0 2.2 Tm 11.4 TL /F2 9.2 Tf .101961 .101961 .101961 rg (Frontend:) Tj /F1 9.2 Tf ( React.js, Redux, JavaScript \(ES6+\), TypeScript, HTML5, CSS3, Next.js, Tailwind CSS) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 559.6 cm
-q
-BT 1 0 0 1 0 13.6 Tm 11.4 TL /F2 9.2 Tf .101961 .101961 .101961 rg (AI / LLM:) Tj /F1 9.2 Tf ( Claude, OpenAI & Gemini APIs, Model Context Protocol \(MCP\), Tool-Calling Agents, RAG, Prompt Engineering &) Tj T* (Caching, LLM Feature Integration, AI-Assisted Development \(Claude Code\)) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 546.2 cm
-q
-BT 1 0 0 1 0 2.2 Tm 11.4 TL /F2 9.2 Tf .101961 .101961 .101961 rg (Cloud \(AWS\):) Tj /F1 9.2 Tf ( AWS Lambda, Serverless Framework, CloudFront, S3, Lambda Authorizers, Puppeteer) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 532.8 cm
-q
-BT 1 0 0 1 0 2.2 Tm 11.4 TL /F2 9.2 Tf .101961 .101961 .101961 rg (Integrations:) Tj /F1 9.2 Tf ( CRM: Salesforce, HubSpot & Zoho; Gmail Add-on; REST APIs, OAuth) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 508 cm
-q
-BT 1 0 0 1 0 13.6 Tm 11.4 TL /F2 9.2 Tf .101961 .101961 .101961 rg (Quality & Tooling:) Tj /F1 9.2 Tf ( Performance Optimization, Code Splitting, Lazy Loading, Memoization, Debugging, Code Reviews, Git,) Tj T* (GitHub, Postman, Agile / Scrum) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 491.4 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.4 Tm /F2 10.2 Tf 11.6 TL (WORK EXPERIENCE) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 489.8 cm
-q
-.6 w
-1 J
-.6 .6 .6 RG
-n 0 0 m 520.8 0 l S
-Q
-Q
-q
-1 0 0 1 45.6 475.2 cm
-q
-BT 1 0 0 1 0 1.8 Tm 11.6 TL /F2 9.8 Tf .101961 .101961 .101961 rg (Full-Stack Software Engineer \227 Tracxn) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 464.6 cm
-q
-BT 1 0 0 1 0 2.1 Tm 10.6 TL /F3 8.5 Tf .266667 .266667 .266667 rg (Jan 2023 \226 Present  ) Tj (|) Tj (  Bangalore, India  ) Tj (|) Tj (  Global market-intelligence platform for investors, corporates, and financial institutions.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 417 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 36.4 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 417 cm
-q
-BT 1 0 0 1 0 36.4 Tm 11.4 TL /F1 9.2 Tf .101961 .101961 .101961 rg (Building an ) Tj /F2 9.2 Tf (AI-powered documentation and research assistant) Tj /F1 9.2 Tf ( \(docs service\) \227 a multi-provider LLM agent) Tj T* (\(Claude/Opus, GPT, Gemini\) with agentic tool-calling that searches docs via RAG, runs web search, and executes Tracxn) Tj T* (search/feature APIs to answer user queries, with streaming responses, intent detection, prompt caching/versioning, and) Tj T* (DOCX/Excel/PDF export.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 382.8 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 25 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 382.8 cm
-q
-BT 1 0 0 1 0 25 Tm 11.4 TL /F1 9.2 Tf .101961 .101961 .101961 rg (Built an internal ) Tj /F2 9.2 Tf (Model Context Protocol \(MCP\) server) Tj /F1 9.2 Tf ( \() Tj /F3 9.2 Tf (tracxn-api-migration) Tj /F1 9.2 Tf (\) exposing 8 read-only tools \227 schema-field) Tj T* (validation, fuzzy field matching, and endpoint comparison \227 enabling AI assistants to query migration notes and cutting) Tj T* (manual API-migration effort across the engineering team.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 360 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 360 cm
-q
-BT 1 0 0 1 0 13.6 Tm 11.4 TL /F1 9.2 Tf .101961 .101961 .101961 rg (Delivered ) Tj /F2 9.2 Tf (CRM integrations) Tj /F1 9.2 Tf ( \227 Salesforce, HubSpot, and Zoho connectors \227 syncing company/entity data and enabling) Tj T* (deal, lead, and account workflows, with CRM board-view and pipeline UI.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 348.6 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 2.2 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 348.6 cm
-q
-BT 1 0 0 1 0 2.2 Tm 11.4 TL /F1 9.2 Tf .101961 .101961 .101961 rg (Built a ) Tj /F2 9.2 Tf (Gmail add-on) Tj /F1 9.2 Tf ( surfacing Tracxn data and exported documents directly into users' email workflow.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 325.8 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 325.8 cm
-q
-BT 1 0 0 1 0 13.6 Tm 11.4 TL /F1 9.2 Tf .101961 .101961 .101961 rg (Drove ) Tj /F2 9.2 Tf (AI-augmented development) Tj /F1 9.2 Tf ( using Claude Code, custom agents, and codebase-context tooling, accelerating feature) Tj T* (delivery and reducing onboarding ramp time.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 303 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 303 cm
-q
-BT 1 0 0 1 0 13.6 Tm 11.4 TL /F1 9.2 Tf .101961 .101961 .101961 rg (Engineered ) Tj /F2 9.2 Tf (AWS serverless) Tj /F1 9.2 Tf ( functions \(Serverless Framework\) including a CloudFront-invalidation handler and a) Tj T* (protected-asset Lambda authorizer.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 280.2 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 280.2 cm
-q
-BT 1 0 0 1 0 13.6 Tm 11.4 TL /F1 9.2 Tf .101961 .101961 .101961 rg (Optimized server-side PDF generation by ) Tj /F2 9.2 Tf (4) Tj (\327) Tj /F1 9.2 Tf ( using AWS Lambda and Puppeteer with parallel rendering and performance) Tj T* (tuning.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 257.4 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 257.4 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 13.6 Tm /F1 9.2 Tf 11.4 TL (Engineered and maintained large-scale, user-facing React.js and Redux applications, significantly improving responsiveness) Tj T* (and load performance.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 234.6 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 234.6 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 13.6 Tm /F1 9.2 Tf 11.4 TL (Designed a User Preferences module \(personalized dashboards, configurable UX\) and implemented advanced filtering,) Tj T* (sorting, and search using dynamic configurations and Redux state management.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 211.8 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 211.8 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 13.6 Tm /F1 9.2 Tf 11.4 TL (Built and optimized a Compare Tool to evaluate multiple companies/entities side-by-side, improving analytical) Tj T* (decision-making.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 189 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 189 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 13.6 Tm /F1 9.2 Tf 11.4 TL (Developed a Feature Access and Role-Based Access Control \(RBAC\) system, strengthening security, compliance, and) Tj T* (feature-visibility management.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 166.2 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 166.2 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 13.6 Tm /F1 9.2 Tf 11.4 TL (Created reusable UI component libraries and optimized runtime performance via lazy loading, code splitting, and) Tj T* (memoization, reducing bundle size.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 143.4 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 143.4 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 13.6 Tm /F1 9.2 Tf 11.4 TL (Conducted code and M2 reviews, mentored new engineers, and collaborated cross-functionally for seamless end-to-end) Tj T* (delivery.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 126.8 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.4 Tm /F2 10.2 Tf 11.6 TL (PROJECTS) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 125.2 cm
-q
-.6 w
-1 J
-.6 .6 .6 RG
-n 0 0 m 520.8 0 l S
-Q
-Q
-q
-1 0 0 1 45.6 99.4 cm
-BT /F1 9.2 Tf 11.04 TL ET
-0 0 0 rg
-BT 1 0 0 1 0 13.6 Tm (\177) Tj T* ET
-Q
-q
-1 0 0 1 56.6 99.4 cm
-q
-BT 1 0 0 1 0 13.6 Tm 11.4 TL /F2 9.2 Tf .101961 .101961 .101961 rg (ClipBuddy \226 Mac App Store) Tj /F1 9.2 Tf ( \227 Native macOS clipboard manager in Swift/SwiftUI over a local SQLite store with FTS5) Tj T* (search; StoreKit subscriptions, 16 localizations, no account or server. Shipped solo: app, site, listing, release pipeline.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 82.8 cm
-q
-.101961 .101961 .101961 rg
-BT 1 0 0 1 0 1.4 Tm /F2 10.2 Tf 11.6 TL (EDUCATION) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 81.2 cm
-q
-.6 w
-1 J
-.6 .6 .6 RG
-n 0 0 m 520.8 0 l S
-Q
-Q
-q
-1 0 0 1 45.6 66.8 cm
-q
-BT 1 0 0 1 0 2.2 Tm 11.4 TL /F2 9.2 Tf .101961 .101961 .101961 rg (BE in Mechanical Engineering) Tj /F1 9.2 Tf (  ) Tj (|) Tj (  2019) Tj (\226) Tj (2022 \227 Foundations in problem-solving, analytical thinking, and system design.) Tj T* ET
-Q
-Q
-q
-1 0 0 1 45.6 42 cm
-q
-BT 1 0 0 1 0 13.6 Tm 11.4 TL /F2 9.2 Tf .101961 .101961 .101961 rg (Full-Stack Web Development Bootcamp) Tj /F1 9.2 Tf (  ) Tj (|) Tj (  2022 \227 30-week program \(JavaScript, React.js, Redux, Node.js, HTML, CSS\);) Tj T* (built scalable apps and reusable UI components; Agile, Git/GitHub, code reviews.) Tj T* ET
-Q
-Q
- 
-
-endstream
 endobj
 7 0 obj
 <<
-/F1 8 0 R
-/F2 9 0 R
-/F3 10 0 R
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
 >>
 endobj
 8 0 obj
 <<
-/BaseFont /Helvetica
-/Encoding /WinAnsiEncoding
-/Name /F1
-/Subtype /Type1
-/Type /Font
+/A <<
+/S /URI /Type /Action /URI (https://clipbuddyapp.com)
+>> /Border [ 0 0 0 ] /Rect [ 468.7416 158.76 542.8844 169.8 ] /Subtype /Link /Type /Annot
 >>
 endobj
 9 0 obj
 <<
-/BaseFont /Helvetica-Bold
-/Encoding /WinAnsiEncoding
-/Name /F2
-/Subtype /Type1
-/Type /Font
+/A <<
+/S /URI /Type /Action /URI (https://apps.apple.com/app/id6786578164)
+>> /Border [ 0 0 0 ] /Rect [ 56.6 147.86 117.4488 158.9 ] /Subtype /Link /Type /Annot
 >>
 endobj
 10 0 obj
 <<
-/BaseFont /Helvetica-Oblique
-/Encoding /WinAnsiEncoding
-/Name /F3
-/Subtype /Type1
-/Type /Font
+/Annots [ 4 0 R 5 0 R 6 0 R 8 0 R 9 0 R ] /Contents 14 0 R /MediaBox [ 0 0 612 792 ] /Parent 13 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 
+  /Trans <<
+
+>> /Type /Page
 >>
 endobj
 11 0 obj
 <<
-/Producer (pypdf)
-/Author (Akash Surve)
-/Title (Akash Surve \055 Resume)
+/PageMode /UseNone /Pages 13 0 R /Type /Catalog
 >>
 endobj
+12 0 obj
+<<
+/Author (Akash Surve) /CreationDate (D:20260820090137+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260820090137+05'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (\(unspecified\)) /Title (Akash Surve - Resume) /Trapped /False
+>>
+endobj
+13 0 obj
+<<
+/Count 1 /Kids [ 10 0 R ] /Type /Pages
+>>
+endobj
+14 0 obj
+<<
+/Filter [ /ASCII85Decode /FlateDecode ] /Length 3885
+>>
+stream
+Gau0F?$G!n&q/*0kbh^!#;Cs0-SLC7j)JPK%,f7o*ksO0"$Mdr)RX+2SGhu)X1K[^+]dqQaddT,2-na4\#O=Gdpc&LD4,nPLp>DH4+?'r/W\-lXOV$,f^+clc!LAAWo[9)\r@csHNPh>dmgCk3pF')j.GT,'t.kB]=6HE_Tj3<S^>ZR8,F>:57XU+ZK]WppTrIfp*Z@.Me)d@^Q7Ka3_l9u_k0,>r:@0UccX-s>37)I,O^%%L@o9#r@_ue(>1iH"ZqX/1);(9:nZLI$9XR$0]sVtQU]]%d3iqkf9./Fnp&8DQ&6KlL]ba:1QmguB7DW/b6dn,o`cGf*V;GMc?l+[GCk>'HIZj1HPpf@2LH8,/2KL09rC82r*bS9d:'-)CnX1pm%Pl7IFbin1B&JLMtjNgT$-KPI/^L"H7.O'k7BCVpNZMm'cu-0-KhRAZT)E"YDN!J(:*2]D$E^ZoNAtI27sRUc%Z[sQ49=Yl-7c/E:TV.eb]If/$nt/<;0RM"Wll_QPQ@@`^ta0'<C<jO8*gmY^;e?=M)uZKrkMS24Nba$tR"]g?0WOLOf(j/m%^6U^NGW4SJ<`=7JU0o9A+<HSK.q8OD\59WD2Nm\`\C_GWl;_>UJ*V`p].+TKS"WJWJD#?VcIm#qbZhQ])JUPB::c*1TtAB[r6CEqg#!YV7r`?NT0.-E$TV9h(Nd!2MNS\Xe)$?Da[A)C1o;5HHPe\/t2[gp5RP0$7D1HO-h)4"Ao7h8">hk7gTU<`@A"L0.Y_O6?`gj3:VA#_%!,%MoZf@Pt@;jAe=Kr#9g7ouJUm;&":KPA*#).f-`,ic4tQWNiJh2;s[(4p1ElAi[P8gXir)1J/4BR_DX:hXXQdH#&K$e\e(N3d)ok'SCt+_.$Anutk^_b_rh*BXXR7TO3,@AoG'K2#L-SRBNpqq"d;-Z,9R"M<YW)rfI`B(DHmTk[Op6*kd^aSU4%Gr_u>ff;IYF\h5oDW%q$'Ptg\pHrr`OT*8`^(m_>XGD]O1I4lJ+8?kKqPd.DG'e<hmJV)&]#J@J7+d8Pp?V)1Z<Lh6l*O`+T7A`hkntrT+</]!V_-Ecoc)_88+Z6@q.CXQY[bQ<T!ODCSd.O'FWt9GqZf2!Oc1S*N\@'qr`ES]7W9OS8U\OpclaEdc,`Gno,=`j@%O^,0`4Ftob$q"-FTQ\HZ.pM27\[-)TD8DCT/bIhhaE,We:EmP-)UJ.1itl/$.Cj2YN8gQN?0s-G;Q#FD8#"cFtVr#f^cP;S>/oZ0?1n14sj"B@E9Tl";`C.VtC7$LKo]&L@\/hIML,\kheV!e<-mDD#[g4?goh;#L+eC^M/OCkB^O1CK<*J!\mcWQ6q>8+T8dH<P<iG$4&?E3)p8npN-a/:>R7H,--P-6']qGpMfXq?=,qT/8ip'o5c"RLSk)V,I+`Ui=jD:D/cj^2E`jUh]fFT?$8TA%)4naJ"X)'cVI+&5TIcYURU);(AO*K=4JfPp)[tX&eL;4"%>VL-\X;n_7n7?IO0M:=ALscUBKJaip($4bjkmQ2BkPjdoqP9u0u<b[q=`D9X[J&'Srn,#Sr<:;i\;pGgth+aL/2L0]A\V$(h")3T(_4alH&8k\Vl7Ig!Bj<Hb`@sg2F3;YP4kdW[+PJ:HD4+6B:pGm(uq^/<fL!p6UMj#'&2+tL[[3G0'^%U</m3,&*+??"HkiTHVh:r5V1U$&N8U_337VJe4O5$/HT'tI=0G#\OFLIff1&M.QFsf*ZSL-Ok-47Rk:qr1(@?JiGQCBS1TO",>^ig0imlr6Edk!Q[VHL[_c^W<I"JXW8pE.K/8EfcU-2b0#K4jm(VZhR)h-KN9!=scZdc*Of3L+=mON'KF)P6dU`_AnbEOHha[n$4`2T/bp.-q^LS4.^jaa0,M3uJ$6`"tD\N%MVY$,Q.SP#K;[B/N1fY_hTXb^/Lm6=9I-=34K*@ob1TR?;n&F;X;+k+Lqf-e\7Fal9AjF1D,[dZ<a`A(M-VX9qPoLk[ol:4:>n\Zd*9;+G8ui">53)BsJp\-%$Z'H>pVZGc;]h_M$<'JM#=-K/fc9^f,SIiP)/ogO*fIeOme!h!0po\'D6d%:\/Y>&I$"4/PE4H=Nm_$cp&&ai?M(aICN!;JBJFUd"ffXYY^nl]T&>N^jE8(,rCSI]1&1:8Gf%cBlQKf**SN+n2U%:ho?^5sPo\Ef0112s()Oaf_91[gHT1<51[f&@fL332;=d627JP1`dPkcbNH^=WRP_&Hg!bt<[mX9bl6),Nt+ZW$t%0S]f4eBRfV=<PXqDAHUuamK'f"(8/`L"tO7$)WT?VA`BeKZ]VELG8BrKP7#-@I7IeEP&pi2WTf[I*9*^-l3=u@`1#/L4dA^,m(M3/reK'P`rC1!uSQ>\TMcRVa0aU`^2r6m`KrbjhM#(f0uY+MgRkFc4s--3ftJi1m&)>(Xje0b&(G1QK2\jc'#hVY8%,=aQ%=S_61s4^ZC4-m^c'S1i+B%gZ6%ZFd"JfWYT?#9]7qK1*E5`!n[H__X(Ws^<3DAf$B>/p>2\?KlMXk.eXYMbq(I!1uQ!cbtSi+lH2DSE\O?2(1,%DI(Yhf/aC&CdH,T^\/(cWo/0T=[t;C`l.YZ`+?*V+YlVM:TfbpaH3I1-PNL!1kgkfAV3#X5^D-<d?\3S`@bc+J,*..6BY6L^fDM@hak.,F9BW`E@IW/KKjlPL*M0OhVfW6$$'>o6e5:cb<qOYLm$fLfi=5Xl1\kaV-m]kQ'<W.*,HT/U)H;q5gB,*C/"lM,Y+%J\a1,u5rU5HbAkZX7>g=:)C.IXr>m7E'_$Fj+2X,Y=.$n8^EoMgRVXJYE=8VS_?V#E2hsC'n<ld;"hP:\T#:L>]<3`i9`c)#m2aj^ongtCpY_$JL$?Ge4[n!Y3fFfl3rX-/AR7s:r?%Ul0JIjN>7`HX0--RX`1jT38OP=S^C,D<)ET3kCKA9h+Y71nF%HbJIH%T;:0Je``d<h=IN6X:G6&KJj^_3_Y1]dSF/U&(b[J&S`e1RdoC0mh:_Wq*;rp5k$qZ6V?j<hFWLW.niM#?`08L>o$oi"hHTQj(^4uGHOE]P0PO^IEJ6oEF^`Cgcmf\CqL2bQH7C5-&Kdb]=fpIVNlJ0SbgQQ]3Z";!$s't#MIHU"u[\GZqE2oqfQ/SN*LKh]Y;V5Vj3+`'NYVX?uPEP8W2^?lk+Mr;.>?ITkZ^$$sU?!d<2\QI6b#<ic'$67LH/hG"c`!Dae%/#RfRo*M>[m2WI+f5k!ArVbn1]VH-X6jG"ji1p(-W>On_I9/Bi!85G"H65c8Yk8G2rGtR.e7]jl<go7-05J$4u\*Dr*jPE$Y"XdZ8Tf7GptN(!!T6kWOg^hR=]ccR'eg8*qK;L4LtH12O[Y$O0o2Z6eifm3\O*t5<K0jqc?NYIdj@)-Du,#XM<5F5.D7!Z.P:)Qf_t3BeOalh,Osfmg$<h'Hn^2lQ2qJ<K=%mFS"PXf%]`sBJ]A)kM"^6g'lBofmR,pi^p5oNn*'HQrAW3l'@j,PR>q[ath'!k'ekGg89E8blB4Yfu#_>r.^(h-J8N+d<BTsg*_jSGlCnekWAZ+\5'5XUt>Lcl(sV`YY3rL*iI4fbBsOuY+_ViPO%JAqE:^ja=q^-k@ui&pf.Rk"Y-g"b%?#[;_;WX[1ZEHa.plP(+i2sf!W&.0Jd)2^bTM#X=Q];(mW!GF*hcm[*0*5YWFf>/Oq-fW=7'5?n+6bG;C/_0!7E=84DQ`J6[9G4lDYM:<t=q>R;K8TVVLiFcX:qOiMYq;gp+#<6i$bit_+TEDFEM=ILZsd52B.>^,7S4o9_8e+5''$KrN$9+bBp>+`c]qca9T-bSFWLR\,jKFOIV%*euJ]32lbiX8KL!Uo6sei-$4]3cd3^GfP<-7pMnUVYLUa,jl9rXVa@4Mh~>endstream
+endobj
 xref
-0 12
+0 15
 0000000000 65535 f 
-0000000015 00000 n 
-0000000064 00000 n 
-0000000123 00000 n 
-0000000336 00000 n 
-0000000544 00000 n 
-0000000731 00000 n 
-0000011132 00000 n 
-0000011184 00000 n 
-0000011291 00000 n 
-0000011403 00000 n 
-0000011519 00000 n 
+0000000061 00000 n 
+0000000112 00000 n 
+0000000219 00000 n 
+0000000331 00000 n 
+0000000510 00000 n 
+0000000694 00000 n 
+0000000866 00000 n 
+0000000981 00000 n 
+0000001152 00000 n 
+0000001334 00000 n 
+0000001572 00000 n 
+0000001642 00000 n 
+0000001928 00000 n 
+0000001989 00000 n 
 trailer
 <<
-/Size 12
-/Root 1 0 R
-/Info 11 0 R
+/ID 
+[<baa0bd266997c03d9a4850059b8fda4f><baa0bd266997c03d9a4850059b8fda4f>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 12 0 R
+/Root 11 0 R
+/Size 15
 >>
 startxref
-11614
+5966
 %%EOF
